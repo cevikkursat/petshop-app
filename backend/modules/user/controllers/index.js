@@ -1,0 +1,41 @@
+const register = require("./user/register");
+const login = require("./user/login");
+const buy = require("./user/buy");
+const getListProducts = require("./site/getListProducts");
+const getCartProducts = require("./site/listCartProducts");
+const getProduct = require("./site/getProduct");
+const getUser = require("./user/getUser");
+const changepass = require("./user/changepass");
+const closeacc = require("./user/closeacc");
+const getAddress = require("./user/getAddress");
+const setAddress = require("./user/setAddress");
+const searchProducts = require("./site/searchProducts");
+const getOrders = require("./order/getOrders");
+const comment = require("./order/comment");
+const getCarouselItems = require("./site/getCarouselItems");
+const activate = require("./user/activate");
+const resetpass = require("./site/resetpass");
+const resetpassword = require("./user/resetpassword");
+
+const userController = {};
+
+userController.register = register;
+userController.login = login;
+userController.buy = buy;
+userController.getListProducts = getListProducts;
+userController.getCartProducts = getCartProducts;
+userController.getProduct = getProduct;
+userController.getUser = getUser;
+userController.changepass = changepass;
+userController.closeacc = closeacc;
+userController.getAddress = getAddress;
+userController.setAddress = setAddress;
+userController.searchProducts = searchProducts;
+userController.getOrders = getOrders;
+userController.comment = comment;
+userController.getCarouselItems = getCarouselItems;
+userController.activate = activate;
+userController.resetpass = resetpass;
+userController.resetpassword = resetpassword;
+
+module.exports = userController;
