@@ -1,7 +1,7 @@
 # petshop-app
- Merhaba bu benim okul projem için geliştirdiğim yapay zeka destekli petshop sitesidir. 
+ Dönem projesi olarak geliştirdiğim bu projenin amacı, eğitilecek olan model üzerinden kullanıcıların sisteme yükledikleri fotoğrafta bulunan köpek türünü tahmin ederek bu tahminler ile site üzerinde kullanıcı deneyiminin arttırılmasıdır.
  
- This is an artificial intelligence-supported petshop site that I developed for my school project.
+ The aim of this project, which I developed as a semester project, is to increase the user experience on the site by predicting the dog breed in the photo uploaded by users to the system through the model to be trained.
 ## Kullanılan Teknolojiler
 #### Backend
 [![Nodejs](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en)
